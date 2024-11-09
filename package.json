@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "yarn build -- --watch"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.81.0"
+  }
+}
+
